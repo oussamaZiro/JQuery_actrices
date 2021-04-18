@@ -1,0 +1,180 @@
+/* ----- general */
+*{
+    margin: 0;
+    padding: 0
+}
+
+
+/*------------------ body -----*/
+ul, ol {
+    list-style: none
+}
+body {
+    background: #bfbfbf url(background.jpg) repeat-x;
+    font-family: tahoma, sans-serif;
+}
+header {
+    padding: 30px 0;
+}
+header h1 {
+    font-size :50px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #000;
+    font-family: Limelight, cursive;
+    text-shadow: 5px 5px 3px #000;
+}
+
+/*---------------------- MAINE MENU  -------- */
+
+#main-menu ul{
+    width: 980px;
+    height: 800px;
+    margin: 0 auto;
+    padding-top: 137px;
+}
+
+#main-menu ul li{
+    float: left;
+    width: 140px;
+    height: 500px;
+    overflow: hidden;
+    position: relative
+}
+
+
+.bw {
+    position: absolute;
+    left: 0px;
+    width: 140px;
+    height: 500px;
+    cursor: pointer;
+    opacity: 0.7;
+    background: url('bw-image.jpg') no-repeat;
+}
+.color {
+    position: absolute;
+    left: 140px;
+    width: 140px;
+    height: 500px;
+    cursor: pointer;
+    background: url('color-image.jpg') no-repeat;
+}
+
+#part2 div {
+    background-position: -140px 0;
+}
+#part3 div {
+    background-position: -280px 0;
+}
+#part4 div {
+    background-position: -420px 0;
+}
+#part5 div {
+    background-position: -560px 0;
+}
+.description {
+    position: absolute;
+    left: 140px;
+    width: 240px;
+    height: 460px;
+    padding: 20px;
+    background: #ddd;
+    cursor: pointer
+}
+
+.description h2 {
+    padding-top: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: #333;
+    text-transform: uppercase;
+    font-family: Oswald;
+    font-weight: 1000
+}
+.description h3 {
+    margin-top: 30px;
+    font-size: 36px;
+    padding: 10px;
+    text-align: center;
+    text-align: center;
+    color: #fff;
+    background: #d70000;
+    text-shadow: 3px 3px 1px #000;
+    border-radius: 5px;
+    font-family: Akaya Telivigala, sans-serif;
+    font-weight: 100
+}
+.description p {
+    padding-top: 30px;
+    font-size: 22px;
+    text-align: center;
+    color: #000 
+}
+
+
+/*---------------------- button-menu  -------- */
+
+#button-menu {
+    float: left;
+    width: 100%;
+    padding: 1px 0 50px 0;
+    position: relative;
+    top: 780px;
+    
+    
+}
+#button-menu ul {
+    float: left;
+    position: relative;
+    left: 50%;
+    text-align: center;
+    
+}
+.button {
+    float: left;
+    width: 150px;
+    margin-left: 30px;
+    padding: 10px 0;
+    position: relative;
+    right: 50%;
+    text-shadow: 4px 3px 2px rgba(0,0,0,0.9);
+    font-family: 'lobster';
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.75);
+    border: 2px solid #b70000;
+    font-size: 22px;
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: #b70000;
+}
+ .hoverd {  /* le meme chose que .button:hover*/
+    background-color: #b70000;
+    border:2px solid #333;
+    font-size: 25px;
+    opacity: 1
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
