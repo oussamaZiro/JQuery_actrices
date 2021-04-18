@@ -1,3 +1,3 @@
 # JQuery_actrices
 
-## Deployment: https://hakim-tamoum.github.io/JQuery_actrices/
+### Deployment: https://hakim-tamoum.github.io/JQuery_actrices/
